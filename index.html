@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Han Min Lee - Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* 'Inter' 폰트를 기본으로 설정 */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* 마크다운에서 가져온 bold 태그 스타일 보정 */
+        strong, b {
+            font-weight: 600;
+            color: #1F2937; /* text-gray-800 */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto max-w-6xl p-4 sm:p-8 my-8">
+        <!-- 이력서 카드 -->
+        <div class="bg-white shadow-xl rounded-lg overflow-hidden md:flex">
+
+            <!-- 왼쪽 사이드바: 연락처, 학력, 스킬 -->
+            <aside class="md:w-1/3 bg-gray-50 p-6 sm:p-8">
+                
+                <!-- 연락처 섹션 -->
+                <section class="mb-8">
+                    <h2 class="text-xl font-bold text-blue-800 border-b-2 border-blue-200 pb-2 mb-4">CONTACT</h2>
+                    <div class="space-y-3 text-gray-700">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-blue-700" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+                            <a href="mailto:hanmin85@gmail.com" class="hover:text-blue-600">hanmin85@gmail.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-blue-700" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2.153a1 1 0 01-.986-.836l-.74-4.435a1 1 0 01.54-1.06l1.548-.773a11.037 11.037 0 00-6.105-6.105l-.774 1.548a1 1 0 01-1.06.54l-4.435-.74A1 1 0 013 3V3z" />
+                            </svg>
+                            <span>+33 07 88 59 35 08</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-blue-700" viewBox="0 0 20 20" fill="currentColor">
+                                 <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.206v4.248H8.014V8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.71zM5.337 7.433c-.857 0-1.548-.694-1.548-1.548S4.48 4.337 5.337 4.337c.858 0 1.548.694 1.548 1.548S6.195 7.433 5.337 7.433zM3.79 16.338H6.883V8.59H3.79v7.748zM18.338 0H1.661C.744 0 0 .744 0 1.662v16.676C0 19.256.744 20 1.661 20h16.677C19.256 20 20 19.256 20 18.338V1.662C20 .744 19.256 0 18.338 0z" clip-rule="evenodd" />
+                            </svg>
+                            <a href="https://www.linkedin.com/in/hanminl/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">linkedin.com/in/hanminl</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 학력 섹션 -->
+                <section class="mb-8">
+                    <h2 class="text-xl font-bold text-blue-800 border-b-2 border-blue-200 pb-2 mb-4">EDUCATION</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-800">Executive MBA</h3>
+                            <p class="text-gray-700">ESSEC-Mannheim Business School</p>
+                            <p class="text-sm text-gray-600 italic">Paris, FR & Mannheim, DE | 2024 - 2026</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800">Bachelors in Computer Science</h3>
+                            <p class="text-gray-700">Carnegie Mellon University</p>
+                            <p class="text-sm text-gray-600 italic">Pittsburgh, PA, USA | 2005 - 2009</p>
+                            <p class="text-sm text-gray-600 mt-1">Specialized in AI, Machine Learning, and Software Development.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 핵심 스킬 섹션 -->
+                <section>
+                    <h2 class="text-xl font-bold text-blue-800 border-b-2 border-blue-200 pb-2 mb-4">KEY SKILLS</h2>
+                    <ul class="list-none space-y-2 text-gray-700">
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            Web3 & Blockchain Strategy
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            Crypto Venture Investment
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            Portfolio Management & Advisory
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            GTM & Platform Scaling
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            Strategic Alliances & Ecosystems
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-2 h-2 bg-blue-700 rounded-full mr-3 shrink-0"></span>
+                            Technical & Financial Acumen
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+
+            <!-- 오른쪽 메인 컨텐츠: 요약, 경력 -->
+            <main class="md:w-2/3 p-6 sm:p-8">
+                <!-- 헤더: 이름, 직무 -->
+                <header class="mb-8 text-center md:text-left">
+                    <h1 class="text-4xl lg:text-5xl font-bold text-gray-900">Han Min Lee</h1>
+                    <p class="text-lg lg:text-xl font-medium text-blue-700 mt-1">Global Business Leader | Web3, Blockchain & Digital Assets</p>
+                </header>
+
+                <!-- Professional Summary 섹션 -->
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-gray-200 pb-2 mb-4">PROFESSIONAL SUMMARY</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Global Business Leader with 12+ years of experience at the intersection of technology, venture investment, and corporate strategy, with a deep specialization in <strong>Web3, Blockchain, and Digital Assets.</strong>
+                        <br><br>
+                        Proven success leading a corporate <strong>blockchain strategy</strong>, executing venture investments in <strong>blockchain</strong> startups, and providing strategic advisory to portfolio companies to build new <strong>digital asset economies</strong>. Expertise in GTM strategy (scaled a new digital platform to #2 market position), C-level negotiation, and building strategic alliances with global tech leaders (Google, Meta, Sony). Combines an EMBA with a B.S. in Computer Science.
+                    </p>
+                </section>
+
+                <!-- Professional Experience 섹션 -->
+                <section>
+                    <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-gray-200 pb-2 mb-4">PROFESSIONAL EXPERIENCE</h2>
+                    <div class="space-y-6">
+
+                        <!-- 경력 1: Piccoma -->
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Director - Piccoma Europe (Kakao Piccoma)</h3>
+                            <p class="text-sm text-gray-600 italic mb-2">Paris, France | Jan 2023 - Present</p>
+                            <ul class="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                                <li>Spearheaded European market entry for a leading digital content platform, building a 40-person cross-functional organization and scaling the business to the #2 market position with 1M+ subscribers.</li>
+                                <li>Defined the GTM strategy and operational framework for a new digital platform, securing C-level deals for 1,000+ premium IPs (digital assets).</li>
+                            </ul>
+                        </div>
+
+                        <!-- 경력 2: NC SOFT -->
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Team Leader, Tech Investment & Strategic Partnerships - NC SOFT</h3>
+                            <p class="text-sm text-gray-600 italic mb-2">Seoul, Korea | Jan 2021 - Dec 2022</p>
+                            <ul class="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                                <li><strong>Blockchain Strategy & Web3 Leadership:</strong> <strong>Directed the corporate blockchain strategy</strong>, providing strategic advisory to portfolio companies to drive innovation in <strong>digital assets</strong> and new <strong>platform economies</strong>.</li>
+                                <li><strong>Crypto Venture Investment:</strong> Led a team executing direct minority investments in high-growth <strong>Blockchain, AI, and Health-tech</strong> ventures.</li>
+                                <li><strong>Deal Sourcing & Diligence:</strong> Sourced and evaluated 200+ startups monthly by building a robust pipeline with leading VCs. Led end-to-end due diligence (market, financial, technical, legal) and negotiated deal terms.</li>
+                                <li><strong>Gaming & Platform Partnerships:</strong> Managed strategic partnerships with <strong>Sony Interactive Entertainment</strong> and global studios to launch AAA titles on new platforms, aligning product and operational roadmaps.</li>
+                            </ul>
+                        </div>
+
+                        <!-- 경력 3: Samsung (Chief of Staff) -->
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Chief of Staff - Samsung Electronics</h3>
+                            <p class="text-sm text-gray-600 italic mb-2">Seoul, Korea | Jul 2016 - Dec 2020</p>
+                            <ul class="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                                <li>Served as a <strong>trusted advisor to senior executive leadership</strong>, supporting strategy execution and connecting day-to-day operations with long-term objectives.</li>
+                                <li>Led the <strong>post-merger integration of SmartThings</strong>, aligning the acquired company's product roadmap, engineering teams, and GTM strategy.</li>
+                                <li>Negotiated and closed multi-million-dollar global partnerships with key technology platform partners, including <strong>Google, Microsoft, and Meta</strong>.</li>
+                            </ul>
+                        </div>
+
+                        <!-- 경력 4: Samsung (New Biz Dev) -->
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">New Business Development Manager - Samsung Electronics</h3>
+                            <p class="text-sm text-gray-600 italic mb-2">Seoul, Korea | Aug 2013 - Jul 2016</p>
+                            <ul class="list-disc list-outside ml-5 space-y-1 text-gray-700">
+                                <li>Drove early-stage product partnerships for emerging technologies, contributing to the launch of the world's first wearable watch.</li>
+                                <li>Built and scaled the <strong>global developer ecosystem</strong> for the Tizen OS platform, enhancing partner engagement and driving platform adoption.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+            </main>
+
+        </div>
+    </div>
+
+</body>
+</html>
